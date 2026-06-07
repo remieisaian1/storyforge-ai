@@ -141,3 +141,33 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
+# -------------------------------
+# Project-specific ignores
+# -------------------------------
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+
+# React Native / Expo native build folders
+android/
+ios/
+
+# EAS Build
+.eas/
+
+# Extra environment files
+.env.local
+.env.development
+.env.production
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
